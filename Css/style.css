@@ -1,0 +1,149 @@
+body, h1, h2, ul, li, p, dd, dt, dl {
+  margin: 0px;
+  padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Kanit:ital,wght@1,200;1,400&family=Lora&family=Playfair+Display+SC&display=swap');
+
+
+body{
+  background-image: linear-gradient(to left, #C750C0, #4558D0);
+}
+.main-login {
+  width: 50vw;
+  height: 60vh;
+  margin-left: 25vw;
+  margin-top: 25vh;
+  background-color: #2f2841;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.direita-login > .imagem-esquerda {
+  width: 25vw;
+  display: flexbox;
+  
+}
+
+.direita-login {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-login{
+  
+  /* position: fixed; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  
+}
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 10px;
+}
+
+.textfield > h1 {
+  color: #00ff88;
+  font-weight: 800;
+  margin: 0 30% 2% 0;
+  font-family: 'Lora', serif;
+}
+
+.span-requerido{
+  display: none;
+  font-size: 10px;
+  color: #e63636;
+  font-family: 'Lora', serif;
+  margin-right: 60%;
+  
+}
+
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #514869;
+  color: #f0ffffde;
+  font-size: 12pt;
+  font-family: 'Lora', serif;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield > input::placeholder {
+  color: #f0ffff94;
+}
+
+.textfield > .btn-login {
+  display: flex;
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px 0 0 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-family: 'Lora', serif;
+  color: #2b134b;
+  background-color: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-login:active{
+  background-color: #00ff8052;
+
+}
+
+.texto2, p{
+  font-size: 12px;
+  text-decoration: none;
+  color: #c0cccc;
+  margin: 10px 10px 5px 0px;
+}
+
+a:active{
+  cursor: pointer;
+  color: #00ff88;
+}
+
+.texto3 {
+  font-size: 12px;
+  text-decoration: none;
+  color: #c0cccc;
+  margin: 50px 50px 5px 0px;
+  
+}
+.p{
+  margin-top: 30%;
+}
+
+.rodape > p{
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  margin-top: 5.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="shortcut icon" href="Css/img/key.png" type="image/x-icon">
+  <title>Login</title>
+</head>
+
+<body>
+
+  <!-- as divs da imagem e do formulario -->
+  <div class="main-login">
+    <div class="esquerda-login">
+
+
+    </div>
+
+    <div class="direita-login">
+      <img src="Css/img/login-animate.svg" alt="" class="imagem-esquerda">
+
+      <div class="formulario-login">
+
+
+        <div id="formulario-login" class="textfield">
+          <h1>Login</h1>
+
+          <input class="usuario requerido" type="text" name="usuario" placeholder="Usuário" oninput="nomeValidado()">
+          <span class="span-requerido">Usuário não existe</span>
+        </div>
+
+        <div class="textfield">
+
+          <input class="senha requerido" type="password" name="senha" placeholder="Senha" minlength="8" maxlength="12"
+            oninput="senhaValidada()">
+          <span class="span-requerido">Senha errada</span>
+
+
+          <button id="btn-login" class="btn-login" type="submit" onclick="limparCampos()">Login</button>
+          <p>Esqueceu <a class="texto2" href="#">Username/Password?</a></p>
+
+          <p class="p"><a class="texto3" href="#">Crie sua conta &#x02192;</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="rodape">
+    <p>Desenvolvido por Renan Fumis</p>
+  </footer>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>
